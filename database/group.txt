@@ -1,0 +1,83 @@
+[
+  {
+    "id": "c27dbcef-f3ba-4d19-80c0-a5fb26c2556c",
+    "name": "Grupo 01",
+    "class": "4cb72205-ad43-4fa2-b11e-15e08e61d04c",
+    "students": [
+      {
+        "id": "a1b2c3d4-e5f6-4a7b-8c9d-0e1f2a3b4c5d",
+        "name": "Aluno 01",
+        "email": "aluno1@cesar.school"
+      },
+      {
+        "id": "12a2110b-7857-459f-8ac3-1003f4e5cb9f",
+        "name": "Aluno 02",
+        "email": "aluno2@cesar.school"
+      },
+      {
+        "id": "d8c7de7f-6cef-45e9-976b-122e3b50f615",
+        "name": "Aluno 03",
+        "email": "aluno3@cesar.school"
+      },
+      {
+        "id": "a3d86d27-51e3-4e92-8406-95946496a047",
+        "name": "Aluno 04",
+        "email": "aluno4@cesar.school"
+      }
+    ]
+  },
+  {
+    "id": "9cf4666b-1071-4cdb-8d75-7f4bb18b4226",
+    "name": "Grupo 02",
+    "class": "7a02c32f-9f5f-4d22-822c-0da90dcc27b9",
+    "students": [
+      {
+        "id": "e6ba3f9e-b8c3-400b-ade7-19b59af3b583",
+        "name": "Aluno 05",
+        "email": "aluno5@cesar.school"
+      },
+      {
+        "id": "ba0e104e-0f59-412e-a042-26050f2ab5cc",
+        "name": "Aluno 06",
+        "email": "aluno6@cesar.school"
+      },
+      {
+        "id": "d7554538-999c-4445-ab8e-ff90e9e15507",
+        "name": "Aluno 07",
+        "email": "aluno7@cesar.school"
+      },
+      {
+        "id": "b6d72b82-00cd-45ae-9dae-4cc630b042a0",
+        "name": "Aluno 08",
+        "email": "aluno8@cesar.school"
+      }
+    ]
+  },
+  {
+    "id": "6e61ae1e-637d-4510-b6da-a60b8ad9196d",
+    "name": "Grupo 03",
+    "class": "0d9154be-8070-44f0-852d-ec519c6395ba",
+    "students": [
+      {
+        "id": "d691f6fe-1221-490d-a1f9-ef3cb15a810b",
+        "name": "Aluno 09",
+        "email": "aluno9@cesar.school"
+      },
+      {
+        "id": "0fbfc371-bf5a-4e16-9049-d33bf9643ca9",
+        "name": "Aluno 10",
+        "email": "aluno10@cesar.school"
+      },
+      {
+        "id": "485984ea-5c2b-4018-b960-91f89f5307c5",
+        "name": "Aluno 11",
+        "email": "aluno11@cesar.school"
+      },
+      {
+        "id": "6d17d73d-2291-4b21-95b8-a5ea28e234b5",
+        "name": "Aluno 12",
+        "email": "aluno12@cesar.school"
+      }
+    ]
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "id": "4cb72205-ad43-4fa2-b11e-15e08e61d04c",
+    "name": "Turma A",
+    "tutor": "5c5378d0-9099-437a-a4ab-da57d6db0caf",
+    "created_at": "2023-05-20T15:30:00"
+  },
+  {
+    "id": "7a02c32f-9f5f-4d22-822c-0da90dcc27b9",
+    "name": "Turma B",
+    "tutor": "5c5378d0-9099-437a-a4ab-da57d6db0caf",
+    "created_at": "2023-05-20T15:30:00"
+  },
+  {
+    "id": "0d9154be-8070-44f0-852d-ec519c6395ba",
+    "name": "Turma C",
+    "tutor": "5c5378d0-9099-437a-a4ab-da57d6db0caf",
+    "created_at": "2023-05-20T15:30:00"
+  }
+]
