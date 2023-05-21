@@ -9,7 +9,7 @@ if __name__ == '__main__':
 
     options = [
         ("Saudação", hello_world),
-        ("Exibir banco de dados ", display_data),
+        ("Listar dados ", display_data),
         ("Sair", stop)
     ]
 
