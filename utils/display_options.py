@@ -1,7 +1,7 @@
 import curses
 
 def execute_option(selected_function):
-    selected_function()
+    return selected_function()
 
 def select_option(options):
     selected_index = 0
@@ -31,4 +31,4 @@ def select_option(options):
         curses.endwin()
 
     selected_function = options[selected_index][1]
-    execute_option(selected_function)
+    return execute_option(selected_function)
