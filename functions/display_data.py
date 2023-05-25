@@ -1,33 +1,42 @@
-import os
-print(os.getcwd())
+import json
 
 from utils.display_options import select_option
 
-classFile = open('./database/class.txt', 'r')
-userFile = open('./database/user.txt', 'r')
-groupFile = open('./database/group.txt', 'r')
 
 def print_data(label, data):
-  print(f"{label}:")
-  print(data)
+    print(f"{label}:")
+    print(data)
+
 
 def print_class():
-  print_data("Turmas", classFile.read())
-  classFile.close()
+    file = open('./database/class.json')
+    class_json = json.load(file)
+
+    print_data("Turmas", class_json)
+    file.close()
+
 
 def print_user():
-  print_data("Usuários", userFile.read())
-  userFile.close()
+    file = open('./database/user.json')
+    user_json = json.load(file)
+
+    print_data("Usuários", user_json)
+    file.close()
+
 
 def print_group():
-  print_data("Grupos", groupFile.read())
-  groupFile.close()
+    file = open('./database/group.json')
+    group_json = json.load(file)
+
+    print_data("Grupos", group_json)
+    file.close()
+
 
 def display_data():
-  options = [
+    options = [
         ("Usuários", print_user),
         ("Turmas ", print_class),
         ("Grupos", print_group),
     ]
-  
-  return select_option(options)
+
+    return select_option(options)

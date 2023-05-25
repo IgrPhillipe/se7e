@@ -4,20 +4,20 @@
     "name": "Tiberius Medeiros",
     "email": "tmm@cesar.org.br",
     "password": "123456",
-    "role": "TUTOR"
+    "is_admin": false
   },
   {
     "id": "89dced8e-fec4-4c2d-a4e8-ef42ac99dbb3",
     "name": "Ivo Dantas",
     "email": "ihfadc@cesar.school",
     "password": "123456",
-    "role": "ADMIN"
+    "is_admin": true
   },
   {
     "id": "272cb3d1-4e2d-4474-9cbe-1c8a79a5a101",
     "name": "Igor Phillipe",
     "email": "ipara@cesar.school",
     "password": "123456",
-    "role": "ADMIN"
+    "is_admin": true
   }
 ]
